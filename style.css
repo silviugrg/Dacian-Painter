@@ -1,0 +1,113 @@
+/* General */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.body_container {
+    background-color: #082031;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 10px lightgrey;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C4B82;
+}
+
+.name {
+    margin: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul>li {
+    list-style: none;
+    margin: 20px;
+}
+
+/* container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+.img_profil {
+    height: 150px;
+    border: 3px solid #DD6A4D;
+    border-radius: 50%;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px;
+    padding: 20px;
+};
